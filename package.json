@@ -1,0 +1,30 @@
+{
+  "name": "@pyropets/pyropets-contracts",
+  "version": "1.0.0",
+  "description": "Contracts for PyroPets",
+  "files": [
+    "README.md",
+    "contracts/**/*.sol"
+  ],
+  "directories": {
+    "lib": "contracts",
+    "src": "contracts"
+  },
+  "scripts": {
+    "build": "npx hardhat compile",
+    "lint": "npx hardhat check"
+  },
+  "repository": "PyroPets/pyropets-contracts",
+  "author": "SeqSEE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PyroPets/pyropets-contracts/issues"
+  },
+  "homepage": "https://github.com/PyroPets/pyropets-contracts#readme",
+  "devDependencies": {
+    "hardhat": "^2.9.9"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0"
+  }
+}
